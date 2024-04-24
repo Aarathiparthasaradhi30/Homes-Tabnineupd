@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Homes</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&callback=initMap"
+        async defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#buy">Buy</a></li>
+                <li><a href="#rent">Rent</a></li>
+                <li><a href="#sell">Sell</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#login">Login/Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <img src="hero.jpg" alt="Hero Image">
+            <div class="hero-content">
+                <h1>Welcome to Dream Homes</h1>
+                <p>Find your perfect home today!</p>
+                <a href="#featured-properties">View Featured Properties</a>
+            </div>
+        </section>
+        <section id="map">
+            <div id="map-canvas"></div>
+        </section>
+        <section id="search-filters">
+            <!-- Add advanced search filters here -->
+        </section>
+        <section id="featured-properties">
+            <h2>Featured Properties</h2>
+            <div class="properties">
+                <!-- Add featured properties here -->
+                <div class="property">
+                    <img src="property1.jpg" alt="Property 1">
+                    <h3>Property 1</h3>
+                    <p>Price: $300,000</p>
+                    <p>Bedrooms: 3</p>
+                    <p>Bathrooms: 2</p>
+                    <a href="#" class="add-to-cart">Add to Cart</a>
+                    <a href="#" class="view-details">View More Details</a>
+                </div>
+                <!-- Add more properties here -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2022 Dream Homes. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
